@@ -13,5 +13,5 @@ Synopsis:
     -- convert to horde
     itemId = S2KFI::GetConvertedItemId(itemId, 'horde') or itemId
 
-    -- convert to players' faction
+    -- convert to player's faction
     itemId = S2KFI::GetConvertedItemId(itemId) or itemId
