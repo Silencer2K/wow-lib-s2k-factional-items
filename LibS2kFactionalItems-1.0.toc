@@ -4,6 +4,7 @@
 ## Version: 1.0
 ## LoadOnDemand: 1
 ## X-Part-Of: Libraries
+## X-Category: Library
 
 LibStub\LibStub.lua
 lib.xml
