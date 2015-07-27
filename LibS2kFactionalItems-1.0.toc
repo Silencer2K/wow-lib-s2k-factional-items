@@ -3,6 +3,7 @@
 ## Author: silencer2k@gmail.com
 ## Version: 1.0
 ## LoadOnDemand: 1
+## X-Part-Of: Libraries
 
 LibStub\LibStub.lua
 lib.xml
