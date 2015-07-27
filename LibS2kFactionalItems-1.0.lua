@@ -3,7 +3,7 @@ local MAJOR, MINOR = "LibS2kFactionalItems-1.0", 1
 local lib, oldMinor = LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end
 
-local S2K_FACTIONAL_ITEMS = {
+S2K_FACTIONAL_ITEMS = {
     alliance = {
         [194] = 2120,       [2376] = 1201,      [2388] = 2381,      [13287] = 13288,
         [14649] = 14646,    [14650] = 14647,    [14651] = 14648,    [15197] = 15196,
