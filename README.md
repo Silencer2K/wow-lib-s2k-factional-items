@@ -8,10 +8,10 @@ Synopsis:
     local S2KFI = LibStub("LibS2kFactionalItems-1.0")
 
     -- convert to alliance
-    itemId = S2KFI::GetConvertedItemId(itemId, 'alliance') or itemId
+    itemId = S2KFI::GetFactionalItemId(itemId, 'alliance') or itemId
 
     -- convert to horde
-    itemId = S2KFI::GetConvertedItemId(itemId, 'horde') or itemId
+    itemId = S2KFI::GetFactionalItemId(itemId, 'horde') or itemId
 
     -- convert to player's faction
-    itemId = S2KFI::GetConvertedItemId(itemId) or itemId
+    itemId = S2KFI::GetFactionalItemId(itemId) or itemId

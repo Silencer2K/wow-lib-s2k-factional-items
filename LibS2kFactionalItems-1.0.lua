@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibS2kFactionalItems-1.0", 201507271
+local MAJOR, MINOR = "LibS2kFactionalItems-1.0", 201507281
 
 local lib, oldMinor = LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end
@@ -2345,10 +2345,14 @@ S2K_FACTIONAL_ITEMS = {
     },
 }
 
-function lib:GetConvertedItemId(itemId, faction)
+function lib:GetFactionalItemId(itemId, faction)
     if not faction then
         faction = UnitFactionGroup('player')
     end
     faction = faction:lower()
     return S2K_FACTIONAL_ITEMS[faction][itemId]
+end
+
+function lib:GetConvertedItemId(...)
+    return lib:GetFactionalItemId(...)
 end
